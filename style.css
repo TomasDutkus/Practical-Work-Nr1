@@ -24,7 +24,7 @@ p, li {
   color: #aaa;
   font-family: 'Open Sans', sans-serif;
 }
-hr {
+.hrstyled {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   line-height: 1px;
@@ -37,7 +37,7 @@ hr {
   overflow: visible;
   box-sizing: content-box;
 }
-hr:after {
+.hrstyled:after {
   content: "o";
   color: #aaa;
   display: inline;
@@ -101,4 +101,16 @@ p {
 }
 .share {
   background-color: #4361b3;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.textleft {
+  text-align: left;
+  margin-left: 1vw;
+}
+.right {
+  margin-left: auto;
 }

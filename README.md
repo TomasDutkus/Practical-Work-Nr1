@@ -1,1 +1,1 @@
-Version 0.8 work in progress
+Version 0.9 need some minor style changes
